@@ -1,0 +1,86 @@
+
+/* Estilos login */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos navbar */
+nav {
+    background-color: #000; /* Fondo negro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block; /* Elementos en línea */
+    margin-right: 10px; /* Espacio entre elementos */
+}
+
+nav li a {
+    display: inline-block;
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /
+}
+
+nav li a:hover {
+    background-color: #888; 
+}
+
+/* Estilos para el contenedor del navbar */
+.navbar-container {
+    background-color: #333; 
+    border-radius: 10px; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.content-wrapper {
+    text-align: center; 
+}
+
+h1 {
+    color: black; 
+    font-size: 36px; 
+}
+
+
